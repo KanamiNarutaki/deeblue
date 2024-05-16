@@ -31,7 +31,7 @@ width: 1500px;
 display:flex;
    align-items:center;}
 
-nav .logo {padding-top: 10px;
+nav .logo {
     width: 100px;
 float: left;
 margin-right: 400px;}
@@ -45,7 +45,7 @@ nav ul {margin-bottom: 0;
 display: flex;
 text-align: right;
 width: 60%;
-margin-top: -10px;}
+}
 nav li{width: 100%;}
 nav ul li a {color: white;
     font-family: Noto Sans JP;
@@ -60,7 +60,7 @@ color: white;
 margin-top: 200px;
 padding: 5px;
 text-align: center;
-width: 1480px;}
+width: 1500px;}
 
 .message h3{font-size: 64px;
     font-family: Noto Sans JP;
@@ -277,10 +277,11 @@ height: 50px;}
         z-index: -1;
         margin-top: -700px;}
 
-.top nav ul {padding-top: 50px;}
+.top nav ul {padding-top: 40px;}
+.top .logo {margin-top: 25px;}
 .top_intro {height: 1vhp}
-.top_intro img{width: 1480px;}
-.top_explaination {width: 1480px;
+.top_intro img{width: 1500px;}
+.top_explaination {width: 1500px;
 text-align: center;
 color: white;
 background-color:#2D3251 ;

@@ -1,6 +1,7 @@
 body
 {background-color: white;
-width: 100%;}
+width: 100%;
+margin: 0;}
 main{padding-left: 90px;}
 
 ul{list-style: none;}
@@ -22,12 +23,10 @@ p{font-family: Noto Sans JP;
     line-height: 30px;
 font-size: medium;}
 
-
-
 nav
 {background-color:#1E223B ;
 height: 115px;
-width: 1500px;
+width: 1440PX;
 display:flex;
    align-items:center;}
 
@@ -59,24 +58,25 @@ footer
 {background-color:#1E223B ;
 color: white;
 margin-top: 200px;
-padding: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
 text-align: center;
-width: 1500px;}
+width: 1440PX;}
 
 .message h3{font-size: 64px;
     font-family: Noto Sans JP;
     margin: 0px;}
-.message h4{font-size: 32px;
+.message h4{font-size: 64px;
 font-family: Noto Sans JP;
+padding-bottom: 15px;
 margin-bottom: 0;}
 .message p {letter-spacing: 1.5px;}
-.message_section1, message_section2 {min-width: 1420px;}
+.message_section1, message_section2 {width: 100%;}
 .message main img {width: 465px;
 position: relative;
-margin-left: 100px;
 bottom: 80px;
-right: -175px;}
-.message_left p{width: 600px;
+right: -95px;}
+.message_left p{width: 700px;
 float: left;
 padding-left: 50px;}
 
@@ -91,36 +91,37 @@ width: 1000px;}
 .message_section2 p {
 line-height: 35px;}
 .message_section3 {padding-left: 80px;
-padding-top: 40px;}
+padding-top: 40px;
+margin-bottom: 200px;}
 .message footer {margin-top: 50px;}
 
 .message .background_1{
     background-color:#E6E5E1 ;
-    width: 1480px;
-    height: 440px;
+    width: 1450px;
+    height: 450px;
     position: relative;
-    top: 480px; 
+    top: 500px; 
     right: 100px;
     z-index: -1;
     margin-top: -480px;}
 .message .background_2{
     background-color:#1E223B ;
-    width: 1500px;
-    height: 490px;
+    width: 1450px;
+    height: 550px;
     position: relative;
-    top: 530px; 
+    top: 565px; 
     right: 100px;
     z-index: -1;
-    margin-top: -540px;}
+    margin-top: -450px;}
 .message .background_3{
     background-color:#E7E9F2 ;
     width: 1230px;
     height: 400px;
     position: relative;
-    top: 510px; 
+    top: 580px; 
     right: 100px;
     z-index: -1;
-    margin-top: -400px;}
+    margin-top: -300px;}
 
 .recruit h3{font-family: Noto Sans JP;
 font-size: 30px;
@@ -131,7 +132,7 @@ margin: 0;}
 font-weight: normal;}
 .recruit_about {margin-bottom: 50px;}
 .recruit_list {margin-left: 65px;
-width: 1300px;}
+}
 .recruit_list p {
 width: 100px;
 display: inline-block;
@@ -144,7 +145,7 @@ font-size: medium;}
 .recruit_list li{line-height: 25px;} 
 .recruit .background {
     background-color:#E7E9F2 ;
-    width: 950px;
+    width: 1200px;
     height: 1280px;
     position: relative;
     top: 1300px; 
@@ -180,7 +181,7 @@ height: 100%;
 width: 100%;
 padding: 20px;}
 .grid_1{display: grid;
-    grid-template-columns: repeat(2,700px);
+    grid-template-columns: repeat(2,673px);
 margin: 0;}
 .company_vision{padding-left :50px;
 padding-bottom :10px;
@@ -225,6 +226,7 @@ padding-top: 20px;}
     z-index: -1;
     margin-top: -400px;}
 
+
 .service main img {width: 600px;
 height: 620px;
 float: left;}
@@ -234,8 +236,6 @@ margin: 60px;
 height: 620px;}
 .service_beer .service_passage
 {margin-top: 100px;}
-.service_beer, .service_bbq, .service_bridal
-{min-width: 1400px;}
 .service h3 {font-size: 48px;
 font-family: Noto Sans JP;
 font-weight: normal;
@@ -265,7 +265,7 @@ height: 50px;}
     height: 680px;
     position: relative;
     top: 775px; 
-    right: 90px;
+    right: 130px;
     z-index: -1;
     margin-top: -700px;}
     .service .background_2 {
@@ -274,20 +274,21 @@ height: 50px;}
         height: 770px;
         position: relative;
         top: 380px; 
-        right: 90px;
+        right: 130px;
         z-index: -1;
         margin-top: -700px;}
 
 .top nav ul {padding-top: 40px;}
 .top .logo {margin-top: 25px;}
 .top_intro {height: 1vhp}
-.top_intro img{width: 1500px;}
-.top_explaination {width: 1500px;
+.top_intro img{width: 1440px;}
+.top_explaination {width: 1440px;
 text-align: center;
 color: white;
 background-color:#2D3251 ;
 padding-top: 200px;
-padding-bottom:120px ;}
+padding-bottom:120px ;
+margin-top: 10px;}
 .top_explaination p {
 font-family: Noto Sans JP;
 line-height: 40px;}
@@ -304,16 +305,16 @@ line-height:35px ;}
     margin-bottom: 80px;
     font-family: Noto Sans JP;
     font-weight: 300;}
-.top_service{margin-left: 50px;}
+.top_service{margin-left: 150px;}
 .top_service li {border:1px solid #E6E5E1;
 font-size: 32px;
 text-align: center;
 font-family: Noto Sans JP;
-margin-right: 80px;
+margin-right: 40px;
 margin-bottom: 80px;
 padding: 30px;}
 .top_service ul{display: grid;
-    grid-template-columns: repeat(3, 1fr);}
+    grid-template-columns: repeat(3, 400PX);}
 .top_service button {background-color: white;
     border:0.5px solid #E6E5E1;
 width: 200px;
@@ -324,8 +325,8 @@ letter-spacing: 3px;}
 .top_service button a{color: #1E223B;}
 button:hover{background-color: #1E223B;
 color: white;}
-.top_service img {width: 340px;
-height: 340px;
+.top_service img {width: 280px;
+height: 280px;
 margin-top: 30px;
 margin-bottom: 30px;}
 
@@ -335,7 +336,8 @@ margin-bottom: 30px;}
     color: #2D3251;}
 .contact_phone p {display: inline-block;
 align-items: flex-end;
-color: white;}
+color: white;
+margin-top: 25px;}
 .contact_phone p:first-child
 {font-size: 15px;
 padding-left:30px ;}

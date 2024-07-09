@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title> DEEBLUE : company </title>
-    <link rel="stylesheet" href="css/960_16_col.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +17,25 @@
 <a href="index.html">DEEBLUE</a>
 </div>
 
-<ul>
+<!-- ハンバーガーメニュー部分 -->
+<div class="nav">
+    
+    <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+    <input id="drawer_input" class="drawer_hidden" type="checkbox">
+
+    <!-- ハンバーガーアイコン -->
+    <label for="drawer_input" class="drawer_open"><span></span></label>
+
+<div class="nav_content">
+<ul class="nav_list">
     <li><a href="service.html">service</a></li>
     <li><a href="company.html">company</a></li>
     <li><a href="message.html">message</a></li>
     <li><a href="recruit.html">recruit</a></li>
     <li><a href="contact.html">contact</a></li>
 </ul>
+</div>
+
 </nav>
 
 <main>
@@ -37,7 +48,7 @@
 <div class="company_mission">
 <div class="mission_background"></div>
 <h3>MISSION</h3>
-<h4>人生を楽しむ時代</h4>
+<h4>人生を楽しむ<br>時代</h4>
 <p>
 多くの体験を通して<br>
 本当に楽しかったと思える<br>
@@ -48,7 +59,7 @@
 
 <div class="company_vision">
 <h3>VISION</h3>
-<h4>最高の体験を共有</h4>
+<h4>最高の体験を<br>共有</h4>
 <p>
 世界中のあらゆる<br>
 体験型サービスの中でも<br>
@@ -59,7 +70,6 @@
 </div><!--grid2-->
 
 <div>
-<div class="background"></div>
 <div class="company_value">
 
 <div >
@@ -68,7 +78,7 @@
 <h4 class="move">楽しさを感じて<br>もらいたい</h4>
 <p>
 自ら楽しんで、<br>
-その楽しさを人に伝染させる<br>
+その楽しさを人に<br>伝染させる<br>
 存在でありたい<br>
 </p>
 </div>
@@ -78,7 +88,7 @@
 <p>
 多くのお客様へのサービスを<br>
 提供する中でも1つ1つ<br>
-相手の事を考えもてなす精神を持つ<br>
+相手の事を考えもてなす<br>精神を持つ<br>
 </p>
 </div>
     
@@ -86,16 +96,20 @@
 <h4>人と接する<br>大切さ</h4>
 <p>
 従業員と客という単純な<br>
-関係でなく、人と人としての<br>
-繋がりを大切にして接する<br>
+関係でなく、人と人と<br>しての
+繋がりを<br>大切にして接する<br>
 </p>
 </div>
 
 </div> <!--company value-->
 </div>
 </div><!--company exp-->
+<div class="background"></div>
 
 <div class="company_info">
+
+    <div class="background"></div>
+
 <h5>会社概要</h5>
 <div class="company_info_title">
 <p>会社名</p>
@@ -106,7 +120,6 @@
 </div><!--title-->
 
 <div class="company_info_detail">
-<div class="background"></div>
 <p>株式会社DEEBLUE</p>
 <p>2013年2月</p>
 <p>南里 次郎</p>

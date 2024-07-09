@@ -19,10 +19,14 @@
         // リダイレクト処理
         if (isMobile) {
             console.log("Redirecting to Mobile URL");
-            window.location.href = mobileURL;
+            setTimeout(function() {
+                window.location.href = mobileURL;
+            }, 1000);
         } else {
             console.log("Redirecting to PC URL");
-            window.location.href = pcURL;
+            setTimeout(function() {
+                window.location.href = pcURL;
+            }, 1000);
         }
     </script>
 </head>

@@ -6,9 +6,11 @@
     <script type="text/javascript">
         // ユーザーエージェントを取得
         var userAgent = navigator.userAgent.toLowerCase();
+        console.log("User Agent: " + userAgent);
 
         // スマートフォンかどうかを判定
         var isMobile = /iphone|ipod|ipad|android/.test(userAgent);
+        console.log("Is Mobile: " + isMobile);
 
         // スマートフォン版とPC版のURLを設定
         var mobileURL = "/deeblue_sp/index.html";  // スマートフォン版のURL
@@ -16,8 +18,10 @@
 
         // リダイレクト処理
         if (isMobile) {
+            console.log("Redirecting to Mobile URL");
             window.location.href = mobileURL;
         } else {
+            console.log("Redirecting to PC URL");
             window.location.href = pcURL;
         }
     </script>

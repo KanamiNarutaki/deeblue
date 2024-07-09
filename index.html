@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect</title>
+    <script type="text/javascript">
+        // ユーザーエージェントを取得
+        var userAgent = navigator.userAgent.toLowerCase();
+
+        // スマートフォンかどうかを判定
+        var isMobile = /iphone|ipod|ipad|android/.test(userAgent);
+
+        // スマートフォン版とPC版のURLを設定
+        var mobileURL = "/deeblue_sp/index.html";  // スマートフォン版のURL
+        var pcURL = "/deeblue/index.html";      // PC版のURL
+
+        // リダイレクト処理
+        if (isMobile) {
+            window.location.href = mobileURL;
+        } else {
+            window.location.href = pcURL;
+        }
+    </script>
+</head>
+<body>
+    <p>リダイレクト中です...</p>
+</body>
+</html>

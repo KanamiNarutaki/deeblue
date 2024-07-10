@@ -1,0 +1,359 @@
+body
+{background-color: white;
+width: 100%;
+margin: 0;}
+main{padding-left: 90px;}
+
+ul{list-style: none;}
+li {font-family: Noto Sans JP;}
+a {text-decoration: none;
+color: black;}
+
+h1{font-size: 300%;
+margin: 0px;
+margin-top: 100px;
+font-family: helvetica;
+font-weight: normal;}
+h2 {font-size: 150%;
+margin: 5px;
+margin-bottom: 80px;
+font-family: Noto Sans JP;
+font-weight: 300;}
+p{font-family: Noto Sans JP;
+    line-height: 30px;
+font-size: medium;}
+
+nav
+{background-color:#1E223B ;
+height: 115px;
+width: 1440PX;
+display:flex;
+   align-items:center;}
+
+nav .logo {
+    width: 100px;
+float: left;
+margin-right: 400px;}
+nav .logo a{color: white;
+    font-size: 50px;
+font-family:serif ;
+padding-left: 50px;
+height: 50px;
+vertical-align: bottom;}
+nav ul {margin-bottom: 0;
+display: flex;
+text-align: right;
+width: 60%;
+margin-top: 0;
+}
+nav li{width: 100%;}
+nav ul li a {color: white;
+    font-family: Noto Sans JP;
+font-size: 24px;
+padding-right: 20px;}
+nav ul li a:hover{color:#6A6F8E ;}
+
+
+footer 
+{background-color:#1E223B ;
+color: white;
+margin-top: 200px;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+width: 1440PX;}
+
+.message h3{font-size: 64px;
+    font-family: Noto Sans JP;
+    margin: 0px;}
+.message h4{font-size: 64px;
+font-family: Noto Sans JP;
+padding-bottom: 15px;
+margin-bottom: 0;}
+.message p {letter-spacing: 1.5px;}
+.message_section1, message_section2 {width: 100%;}
+.message main img {width: 465px;
+position: relative;
+bottom: 80px;
+right: -95px;}
+.message_left p{width: 700px;
+float: left;
+padding-left: 50px;}
+
+
+.message_section1 img{width: 400px;
+height: 530px;}
+.message_section2{
+padding-left:80px ;
+padding-top: 80px;
+color: white;
+width: 1000px;}
+.message_section2 p {
+line-height: 35px;}
+.message_section3 {padding-left: 80px;
+padding-top: 40px;
+margin-bottom: 200px;}
+.message footer {margin-top: 50px;}
+
+.message .background_1{
+    background-color:#E6E5E1 ;
+    width: 1450px;
+    height: 450px;
+    position: relative;
+    top: 500px; 
+    right: 100px;
+    z-index: -1;
+    margin-top: -480px;}
+.message .background_2{
+    background-color:#1E223B ;
+    width: 1450px;
+    height: 550px;
+    position: relative;
+    top: 565px; 
+    right: 100px;
+    z-index: -1;
+    margin-top: -450px;}
+.message .background_3{
+    background-color:#E7E9F2 ;
+    width: 1230px;
+    height: 400px;
+    position: relative;
+    top: 580px; 
+    right: 100px;
+    z-index: -1;
+    margin-top: -300px;}
+
+.recruit h3{font-family: Noto Sans JP;
+font-size: 30px;
+margin: 0;}
+.recruit_about h3{padding-bottom: 20px;}
+.recruit_partner h3 {padding-bottom: 0px;}
+.recruit strong {font-size: 64px;
+font-weight: normal;}
+.recruit_about {margin-bottom: 50px;}
+.recruit_list {margin-left: 65px;
+}
+.recruit_list p {
+width: 100px;
+display: inline-block;
+vertical-align: top;
+font-size: medium;}
+.recruit_list ul {
+width: 1100px;
+display: inline-block;
+font-size: medium;}
+.recruit_list li{line-height: 25px;} 
+.recruit .background {
+    background-color:#E7E9F2 ;
+    width: 1200px;
+    height: 1280px;
+    position: relative;
+    top: 1300px; 
+    right: 100px;
+    z-index: -1;
+    margin-top: -1280px;
+}
+
+
+.company h3 {font-size : 15px;
+font-weight: none;
+margin:5px;
+font-family: Noto Sans JP;
+font-weight: normal;}
+.company h4 {font-family: Noto Sans JP;
+font-size :64px ;
+margin:5px ;}
+.company h5{font-family: Noto Sans JP;
+    font-size :40px ;
+font-weight: normal;
+margin: 0;
+padding-top: 80px;
+padding-bottom: 30px;}
+.company main img {position: relative;
+right: -780px;
+top: -280px;
+width: 435px;
+height: 270px;
+margin-bottom: -270px;}
+.company_mission, .company_vision
+{ min-width:300px ;
+height: 100%;
+width: 100%;
+padding: 20px;}
+.grid_1{display: grid;
+    grid-template-columns: repeat(2,673px);
+margin: 0;}
+.company_vision{padding-left :50px;
+padding-bottom :10px;
+width: 90%;
+background-color: #E7E9F2;
+height: 100%;
+z-index: -5;}
+.company_value {
+display: grid;
+grid-template-columns: repeat(3, 450px);
+color: white;
+padding: 0;
+margin-top: -25px;}
+.company .background{
+    background-color:#2D3251;
+    width: 1400px;
+    height: 365px;
+    padding-top: -350px;
+    padding-right: -50px;
+    position: relative;
+    top: 330px;
+    right: 100px;
+    z-index: -1;}
+.company_value h3{
+    margin-bottom: -30px;
+    padding-top: 30px;}
+.company_value_div {padding-top: 30px;}
+.company_value h4 {font-family: Noto Sans JP;
+    font-size : 50px;
+padding-top: 20px;}
+.company_info_title {width: 20%;
+    display : inline-block; 
+    margin-left: 20px;}
+.company_info_detail {width: 60%;
+    display : inline-block; }
+.company_info_detail .background {background-color:#E6E5E1 ;
+    width: 740px;
+    height: 350px;
+    position: relative;
+    top: 290px; 
+    right: 385px;
+    z-index: -1;
+    margin-top: -400px;}
+
+
+.service main img {width: 600px;
+height: 620px;
+float: left;}
+.service_passage {
+float: left;
+margin: 60px;
+height: 620px;}
+.service_beer .service_passage
+{margin-top: 100px;}
+.service h3 {font-size: 48px;
+font-family: Noto Sans JP;
+font-weight: normal;
+margin: 0;}
+.service main p {width: 580px;}
+.service_bbq, .service_beer, .service_bridal
+{width: 100%;
+display: inline-block;}
+.service button {background-color: white;
+width: 150px;
+height: 50px;
+font-size: 15px;
+font-family: Noto Sans JP;
+margin-top: 10px;
+margin-bottom: 40px;}
+.service_sns ul {margin: 0;
+padding: 0;}
+.service_sns li {display: grid;
+    grid-template-columns: repeat(3, 30px);
+float: left;}
+.service_sns li img {width: 50px;
+height: 50px;}
+.service_sns li:hover{opacity: 0.7;}
+.service .background_1 {
+    background-color:#E6E5E1 ;
+    width: 1480px;
+    height: 680px;
+    position: relative;
+    top: 775px; 
+    right: 130px;
+    z-index: -1;
+    margin-top: -700px;}
+    .service .background_2 {
+        background-color:#E7E9F2 ;
+        width: 1480px;
+        height: 770px;
+        position: relative;
+        top: 380px; 
+        right: 130px;
+        z-index: -1;
+        margin-top: -700px;}
+
+.top main {padding: 0;}
+.top_intro {height: 1vhp}
+.top_intro img{width: 1440px;}
+.top_explaination {width: 1440px;
+text-align: center;
+color: white;
+background-color:#2D3251 ;
+padding-top: 200px;
+padding-bottom:120px ;
+margin-top: -10px;}
+.top_explaination p {
+font-family: Noto Sans JP;
+line-height: 40px;}
+.top_explaination p:first-child{font-size:40px ;
+padding-bottom: 80px;
+line-height:35px ;}
+.top h1{font-size: 300%;
+    margin: 0px;
+    margin-top: 75px;
+    font-family: helvetica;
+    font-weight: normal;}
+.top h2 {font-size: 150%;
+    margin: 5px;
+    margin-bottom: 80px;
+    font-family: Noto Sans JP;
+    font-weight: 300;}
+.top_service{margin-left: 150px;}
+.top_service li {border:1px solid #E6E5E1;
+font-size: 32px;
+text-align: center;
+font-family: Noto Sans JP;
+margin-right: 40px;
+margin-bottom: 80px;
+padding: 30px;}
+.top_service ul{display: grid;
+    grid-template-columns: repeat(3, 400PX);}
+.top_service button {background-color: white;
+    border:0.5px solid #E6E5E1;
+width: 200px;
+height:60px ;
+font-family: Noto Sans JP;
+font-size: 16px;
+letter-spacing: 3px;}
+.top_service button a{color: #1E223B;}
+button:hover{background-color: #1E223B;
+color: white;}
+.top_service img {width: 280px;
+height: 280px;
+margin-top: 30px;
+margin-bottom: 30px;}
+
+.contact main a{font-family: Noto Sans JP;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #2D3251;}
+.contact_phone p {display: inline-block;
+align-items: flex-end;
+color: white;
+margin-top: 25px;}
+.contact_phone p:first-child
+{font-size: 15px;
+padding-left:30px ;}
+.contact_phone p:nth-child(2){
+    font-size:40px ;
+    text-decoration: underline;}
+.contact_phone p:last-child{
+    font-size: 18px;
+    padding-left: 300px;}
+.contact_phone .background{
+    background-color: #1E223B;
+    width:980px ;
+    height: 130px;
+    position: relative;
+    top: 110px; 
+    right: 20px;
+    z-index: -1;
+    margin-top: -50px;}
+.contact_phone {margin-left: 100px;}
+.contact a:hover {color: #6A6F8E;}

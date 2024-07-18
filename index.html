@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirect</title>
     <script>
-        if (window.matchMedia("(max-width: 768px)").matches) {
-            window.location.href = "/deeblue/sp";
-        } else {
-            window.location.href = "/deeblue/pc";
+        // 現在のURLがルートである場合のみリダイレクトを行う
+        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+            if (window.matchMedia("(max-width: 768px)").matches) {
+                window.location.href = "/sp/index.html";
+            } else {
+                window.location.href = "/pc/index.html";
+            }
         }
     </script>
 </head>

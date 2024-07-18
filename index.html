@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirect</title>
     <script>
-        // 現在のURLがルートである場合のみリダイレクトを行う
-        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-            if (window.matchMedia("(max-width: 768px)").matches) {
-                window.location.href = "/sp/index.html";
-            } else {
-                window.location.href = "/pc/index.html";
+        document.addEventListener("DOMContentLoaded", function() {
+            // 現在のURLがルートである場合のみリダイレクトを行う
+            if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+                if (window.matchMedia("(max-width: 768px)").matches) {
+                    window.location.href = "/sp/index.html";
+                } else {
+                    window.location.href = "/pc/index.html";
+                }
             }
-        }
+        });
     </script>
 </head>
 <body>

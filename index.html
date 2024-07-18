@@ -8,15 +8,10 @@
         document.addEventListener("DOMContentLoaded", function() {
             // 現在のURLがルートである場合のみリダイレクトを行う
             if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-                if (window.matchMedia("(max-width: 768px)").matches) {
+                // ユーザーエージェントをチェック
+                var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+                
+                if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                    // Android または iOS デバイスの場合
                     window.location.href = "/sp/index.html";
-                } else {
-                    window.location.href = "/pc/index.html";
-                }
-            }
-        });
-    </script>
-</head>
-<body>
-</body>
-</html>
+                } else

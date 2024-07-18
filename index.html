@@ -14,4 +14,14 @@
                 if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
                     // Android または iOS デバイスの場合
                     window.location.href = "/sp/index.html";
-                } else
+                } else {
+                    // それ以外の場合（PC）
+                    window.location.href = "/pc/index.html";
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>

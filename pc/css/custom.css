@@ -28,7 +28,6 @@ nav
 {background-color:#1E223B ;
 height: 85px;
 width: 100%;
-max-width: 1440px;
 display:flex;
    align-items:center;}
 
@@ -231,11 +230,14 @@ padding-top: 20px;}
 .service main {padding-left: 200px;}
 .service main img {width: 350px;
 float: left;}
+.service_bbq_img{margin-top: 70px;}
+.service_beer_img{margin-top: 100px;}
+.service_bridal_img{margin-top: 100px;}
 .service_passage {
 float: left;
 margin: 60px;
 margin-left: 120px;
-height: 620px;}
+height: 350px;}
 .service_beer .service_passage
 {margin-top: 100px;}
 .service h3 {font-size: 48px;
@@ -253,7 +255,7 @@ font-size: 15px;
 font-family: Noto Sans JP;
 margin-top: 10px;
 margin-bottom: 40px;}
-.service_sns ul {margin: 0;
+.service_sns {margin: 0;
 padding: 0;}
 .service_sns li {display: grid;
     grid-template-columns: repeat(3, 30px);
@@ -264,21 +266,21 @@ height: 50px;}
 .service .background_1 {
     background-color:#E6E5E1 ;
     width: 1440px;
-    height: 680px;
+    height: 400px;
     position: relative;
-    top: 775px; 
-    right: 250px;
+    top: 500px; 
+    right: 200px;
     z-index: -1;
-    margin-top: -700px;}
+    margin-top: -450px;}
     .service .background_2 {
         background-color:#E7E9F2 ;
         width: 1440px;
-        height: 770px;
+        height: 510px;
         position: relative;
-        top: 380px; 
-        right: 250px;
+        top: 400px; 
+        right: 200px;
         z-index: -1;
-        margin-top: -700px;}
+        margin-top: -460px;}
 
 .top main {padding: 0;}
 .top_intro {height: 1vhp}

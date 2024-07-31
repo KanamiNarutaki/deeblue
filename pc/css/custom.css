@@ -10,12 +10,12 @@ li {font-family: Noto Sans JP;}
 a {text-decoration: none;
 color: black;}
 
-h1{font-size: 300%;
+h1{font-size: 250%;
 margin: 0px;
 margin-top: 100px;
 font-family: helvetica;
 font-weight: normal;}
-h2 {font-size: 150%;
+h2 {font-size: 120%;
 margin: 5px;
 margin-bottom: 80px;
 font-family: Noto Sans JP;
@@ -26,8 +26,9 @@ font-size: medium;}
 
 nav
 {background-color:#1E223B ;
-height: 115px;
-width: 1440PX;
+height: 85px;
+width: 100%;
+max-width: 1440px;
 display:flex;
    align-items:center;}
 
@@ -36,7 +37,7 @@ nav .logo {
 float: left;
 margin-right: 400px;}
 nav .logo a{color: white;
-    font-size: 50px;
+    font-size: 30px;
 font-family:serif ;
 padding-left: 50px;
 height: 50px;
@@ -50,8 +51,8 @@ margin-top: 0;
 nav li{width: 100%;}
 nav ul li a {color: white;
     font-family: Noto Sans JP;
-font-size: 24px;
-padding-right: 20px;}
+font-size: 18px;
+padding-right: 10px;}
 nav ul li a:hover{color:#6A6F8E ;}
 
 
@@ -64,10 +65,10 @@ padding-bottom: 5px;
 text-align: center;
 width: 1440PX;}
 
-.message h3{font-size: 64px;
+.message h3{font-size: 50px;
     font-family: Noto Sans JP;
     margin: 0px;}
-.message h4{font-size: 64px;
+.message h4{font-size: 50px;
 font-family: Noto Sans JP;
 padding-bottom: 15px;
 margin-bottom: 0;}
@@ -119,17 +120,17 @@ margin-bottom: 200px;}
     width: 1230px;
     height: 400px;
     position: relative;
-    top: 580px; 
+    top: 550px; 
     right: 100px;
     z-index: -1;
     margin-top: -300px;}
 
 .recruit h3{font-family: Noto Sans JP;
-font-size: 30px;
+font-size: 25px;
 margin: 0;}
 .recruit_about h3{padding-bottom: 20px;}
 .recruit_partner h3 {padding-bottom: 0px;}
-.recruit strong {font-size: 64px;
+.recruit strong {font-size: 50px;
 font-weight: normal;}
 .recruit_about {margin-bottom: 50px;}
 .recruit_list {margin-left: 65px;
@@ -162,7 +163,7 @@ margin:5px;
 font-family: Noto Sans JP;
 font-weight: normal;}
 .company h4 {font-family: Noto Sans JP;
-font-size :64px ;
+font-size :50px ;
 margin:5px ;}
 .company h5{font-family: Noto Sans JP;
     font-size :40px ;
@@ -195,23 +196,23 @@ display: grid;
 grid-template-columns: repeat(3, 450px);
 color: white;
 padding: 0;
-margin-top: -25px;}
+margin-top: -340px;
+margin-bottom: 100px;}
 .company .background{
     background-color:#2D3251;
     width: 1400px;
     height: 365px;
-    padding-top: -350px;
     padding-right: -50px;
     position: relative;
-    top: 330px;
     right: 100px;
     z-index: -1;}
 .company_value h3{
     margin-bottom: -30px;
     padding-top: 30px;}
+.company_value p {padding-left: 5px;}
 .company_value_div {padding-top: 30px;}
 .company_value h4 {font-family: Noto Sans JP;
-    font-size : 50px;
+    font-size : 40px;
 padding-top: 20px;}
 .company_info_title {width: 20%;
     display : inline-block; 
@@ -227,13 +228,13 @@ padding-top: 20px;}
     z-index: -1;
     margin-top: -400px;}
 
-
-.service main img {width: 600px;
-height: 620px;
+.service main {padding-left: 200px;}
+.service main img {width: 350px;
 float: left;}
 .service_passage {
 float: left;
 margin: 60px;
+margin-left: 120px;
 height: 620px;}
 .service_beer .service_passage
 {margin-top: 100px;}
@@ -262,20 +263,20 @@ height: 50px;}
 .service_sns li:hover{opacity: 0.7;}
 .service .background_1 {
     background-color:#E6E5E1 ;
-    width: 1480px;
+    width: 1440px;
     height: 680px;
     position: relative;
     top: 775px; 
-    right: 130px;
+    right: 250px;
     z-index: -1;
     margin-top: -700px;}
     .service .background_2 {
         background-color:#E7E9F2 ;
-        width: 1480px;
+        width: 1440px;
         height: 770px;
         position: relative;
         top: 380px; 
-        right: 130px;
+        right: 250px;
         z-index: -1;
         margin-top: -700px;}
 
@@ -295,12 +296,12 @@ line-height: 40px;}
 .top_explaination p:first-child{font-size:40px ;
 padding-bottom: 80px;
 line-height:35px ;}
-.top h1{font-size: 300%;
+.top h1{font-size: 250%;
     margin: 0px;
     margin-top: 75px;
     font-family: helvetica;
     font-weight: normal;}
-.top h2 {font-size: 150%;
+.top h2 {font-size: 120%;
     margin: 5px;
     margin-bottom: 80px;
     font-family: Noto Sans JP;
@@ -309,9 +310,7 @@ line-height:35px ;}
 .top_service li {border:1px solid #E6E5E1;
 font-size: 32px;
 text-align: center;
-font-family: Noto Sans JP;
 margin-right: 40px;
-margin-bottom: 80px;
 padding: 30px;}
 .top_service ul{display: grid;
     grid-template-columns: repeat(3, 400PX);}
@@ -327,8 +326,12 @@ button:hover{background-color: #1E223B;
 color: white;}
 .top_service img {width: 280px;
 height: 280px;
-margin-top: 30px;
+margin-top: 15px;
 margin-bottom: 30px;}
+.top_service p 
+{margin-top: 0;
+    font-size: 25px;
+margin-bottom: 5px;}
 
 .contact main a{font-family: Noto Sans JP;
     font-size: 20px;

@@ -239,8 +239,10 @@ margin: 60px;
 margin-left: 120px;
 height: 350px;}
 .service_beer .service_passage
-{margin-top: 100px;}
-.service h3 {font-size: 48px;
+{margin-top: 100px;
+margin-left:0 ;
+margin-right: 70px;}
+.service h3 {font-size: 40px;
 font-family: Noto Sans JP;
 font-weight: normal;
 margin: 0;}
@@ -266,18 +268,18 @@ height: 50px;}
 .service .background_1 {
     background-color:#E6E5E1 ;
     width: 1440px;
-    height: 400px;
+    height: 500px;
     position: relative;
     top: 500px; 
     right: 200px;
     z-index: -1;
-    margin-top: -450px;}
+    margin-top: -500px;}
     .service .background_2 {
         background-color:#E7E9F2 ;
         width: 1440px;
         height: 510px;
         position: relative;
-        top: 400px; 
+        top: 380px; 
         right: 200px;
         z-index: -1;
         margin-top: -460px;}

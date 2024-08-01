@@ -317,7 +317,8 @@ text-align: center;
 margin-right: 40px;
 padding: 30px;}
 .top_service ul{display: grid;
-    grid-template-columns: repeat(3, 400PX);}
+    grid-template-columns: repeat(3, 400PX);
+padding: 0;}
 .top_service button {background-color: white;
     border:0.5px solid #E6E5E1;
 width: 200px;

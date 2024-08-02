@@ -73,9 +73,10 @@ padding-bottom: 15px;
 margin-bottom: 0;}
 .message p {letter-spacing: 1.5px;}
 .message_section1, message_section2 {width: 100%;}
-.message main img {width: 465px;
+.message main img {width: 350px;
+    height: 350px;
 position: relative;
-bottom: 80px;
+top: 20px;
 right: -95px;}
 .message_left p{width: 700px;
 float: left;

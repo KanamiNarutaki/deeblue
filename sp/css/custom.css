@@ -93,10 +93,10 @@ padding-top: 5px;}
     width: 105%;
     height: 1070px;
     position: relative;
-    top:1070px; 
+    top:1050px; 
     right: 100px;
     z-index: -1;
-    margin-top: -1000px;}
+    margin-top: -980px;}
 .message .background_2{
     background-color:#1E223B ;
     width: 100%;

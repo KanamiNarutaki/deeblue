@@ -66,15 +66,9 @@ padding-bottom: 10px;}
 font-size: 20px;
 line-height: 40px;}
 .message_section1, message_section2 {width: 100%;}
-.message main img {width: 370px;
-    height: 370px;
-position: relative;
-left: 520px;
-top: 330px;
-margin-top: -200px;
+.message main img {width: 0px;
 }
 .message_left p{width: 90%;}
-
 .message_section2{
 padding-top: 80px;
 padding-left: 70px;
@@ -99,10 +93,10 @@ padding-top: 5px;}
     width: 105%;
     height: 1070px;
     position: relative;
-    top:1220px; 
+    top:1070px; 
     right: 100px;
     z-index: -1;
-    margin-top: -1180px;}
+    margin-top: -1000px;}
 .message .background_2{
     background-color:#1E223B ;
     width: 100%;

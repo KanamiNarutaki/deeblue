@@ -308,8 +308,11 @@ padding-bottom:120px ;}
 font-family: Noto Sans JP;
 line-height: 40px;}
 .top_explaination p:first-child{font-size:40px ;
-padding-bottom: 80px;
-line-height:35px ;}
+    padding-bottom: 10px;
+    line-height:35px ;}
+    .top_explaination p:nth-child(2){font-size:40px ;
+        padding-bottom: 80px;
+        line-height:35px ;}
 .top h1{
     margin: 0px;
     margin-top: 50px;
